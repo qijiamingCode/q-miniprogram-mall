@@ -1,0 +1,4 @@
+<!--components/q-back-top/q-back-top.wxml-->
+<view class="back-top" bindtap="handleBackTop">
+  <image src="/assets/images/common/top.png" ></image>
+</view>

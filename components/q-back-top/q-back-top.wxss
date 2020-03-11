@@ -1,0 +1,13 @@
+/* components/q-back-top/q-back-top.wxss */
+.back-top {
+  position: fixed;
+  right: 30px;
+  bottom: 10px;
+
+}
+
+.back-top image {
+  width: 100rpx;
+  height: 100rpx;
+  /* background-color: #fff */
+}

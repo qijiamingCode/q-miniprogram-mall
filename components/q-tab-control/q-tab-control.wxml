@@ -1,0 +1,8 @@
+<!--components/q-tab-control/q-tab-control.wxml-->
+<view class="tab-control">
+  <block wx:for='{{title}}' wx:key='index'>
+    <view class="tab-item {{currentIndex == index ? 'active':''}}"
+          data-index='{{index}}'
+          bindtap="handleColor">{{item}}</view>
+  </block>
+</view>

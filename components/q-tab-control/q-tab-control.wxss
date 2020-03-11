@@ -1,0 +1,16 @@
+/* components/q-tab-control/q-tab-control.wxss */
+.tab-control {
+  display: flex;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #fff
+}
+
+.tab-item {
+  flex: 1;
+  text-align: center;
+}
+
+.active {
+  color: #ff5777;
+}

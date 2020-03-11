@@ -1,0 +1,12 @@
+<!--components/q-goods-item/q-goods-item.wxml-->
+<view class="goods-item">
+  <image class="goods-img" src="{{item.show.img}}" mode="widthFix"></image>
+  <view class="goods-title">{{item.title}}</view>
+  <view class="goods-info">
+    <text class="price">￥{{item.price}}</text>
+    <image class="icno" src='/assets/images/common/favor.png'></image>
+    <text class="cfav">{{item.cfav}}</text>
+  </view>
+
+</view>
+

@@ -1,0 +1,22 @@
+<!--pages/home/home.wxml-->
+<q-swiper list='{{banners}}' />
+
+<q-recommend recommends='{{recommends}}'
+             bind:ImageLoad='ImageLoad'/>
+
+<q-popular/>
+
+<q-tab-control title="{{['流行','新款','潮流']}}"
+               bind:handleColor='handleColor'
+               id='tab-control'
+               class="{{isFixed ? 'fixed':''}}"/>
+<q-tab-control title="{{['流行','新款','潮流']}}"
+               wx:if='{{isFixed}}'/>
+
+<q-goods goods='{{goods[currentType].list}}'/>
+
+<q-back-top wx:if='{{showBackTop}}'/>
+
+
+
+
