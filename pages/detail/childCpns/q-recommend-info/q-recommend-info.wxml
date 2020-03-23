@@ -1,0 +1,7 @@
+<!--pages/detail/childCpns/q-recommend-info/1-recommend-info.wxml-->
+<view class="recommend-info">
+  <view class='header'>商品推荐</view>
+  <view class="content">
+    <q-goods goods="{{recommends}}"/>
+  </view>
+</view>

@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "q-header":"./childCpns/q-header/q-header",
+    "q-info":"./childCpns/q-info/q-info",
+    "q-list-view":"./childCpns/q-list-view/q-list-view"
+  }
 }

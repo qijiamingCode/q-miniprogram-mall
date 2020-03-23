@@ -54,7 +54,9 @@ Page({
     getMultiData().then(res => {
       // console.log(res)
       //取出轮播图和推荐的数据
-      const banners = res.data.data.banner.list;
+      const banners = res.data.data.banner.list.map(item => {
+        return item.image
+      });
       const recommends = res.data.data.recommend.list;
       // console.log(banners)
       //把数据放进data中，让界面调用

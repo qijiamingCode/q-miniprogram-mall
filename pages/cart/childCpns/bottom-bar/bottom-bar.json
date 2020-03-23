@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "q-check-icon": "/components/q-check-icon/q-check-icon"
+  }
+}

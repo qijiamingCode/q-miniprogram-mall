@@ -2,11 +2,14 @@
 .goods-item {
   margin-left: 2px;
   margin-top: 20px;
+  color: black;
+  font-size: 32rpx;
+  text-align: center;
 }
 
 
 .goods-img {
-  width: 350rpx;
+  width: 100%;
   border-radius: 5px;
 }
 

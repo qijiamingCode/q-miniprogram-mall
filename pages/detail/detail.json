@@ -1,0 +1,14 @@
+{
+  "usingComponents": {
+    "q-swiper": "../components/q-swiper/q-swiper",
+    "q-base-info": "./childCpns/q-base-info/q-base-info",
+    "q-shop-info": "./childCpns/q-shop-info/q-shop-info",
+    "q-detail-info": "./childCpns/q-detail-info/q-detail-info",
+    "q-param-info": "./childCpns/q-param-info/q-param-info",
+    "q-comment-info": "./childCpns/q-comment-info/q-comment-info",
+    "q-recommend-info": "./childCpns/q-recommend-info/q-recommend-info",
+    "q-bottom-bar": "./childCpns/q-bottom-bar/q-bottom-bar"
+  },
+  "navigationBarTitleText": "商品详情"
+}
+

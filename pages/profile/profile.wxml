@@ -1,2 +1,7 @@
 <!--pages/profile/profile.wxml-->
-<text>pages/profile/profile.wxml</text>
+<view class="profile">
+  <q-header/>
+  <q-info/>
+  <q-list-view info='{{orderList}}' />
+  <q-list-view info='{{serviceList}}' />
+</view>

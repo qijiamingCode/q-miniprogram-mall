@@ -1,0 +1,14 @@
+<!--pages/detail/detail.wxml-->
+<scroll-view class="detail"
+             scroll-y>
+  <q-swiper class="detail-swiper" list='{{topImages}}'/>
+  <q-base-info baseInfo='{{baseInfo}}'/>
+  <q-shop-info shopInfo='{{shopInfo}}'/>
+  <q-detail-info detailInfo='{{detailInfo}}'/>
+  <q-param-info paramInfo='{{paramInfo}}'/>
+  <q-comment-info commentInfo='{{commentInfo}}'/>
+  <q-recommend-info recommends='{{recommends}}' />
+
+</scroll-view>
+
+  <q-bottom-bar bind:onAddCart='onAddCart'/>

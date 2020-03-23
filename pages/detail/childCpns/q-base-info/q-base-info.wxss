@@ -1,0 +1,72 @@
+/* pages/detail/childCpns/q-base-info/q-base-info.wxss */
+.base-info {
+  padding: 16rpx;
+  margin-top: 10rpx;
+  /* 底下那条线 */
+  border-bottom: 12rpx solid #f2f2f2;
+}
+
+.title {
+  font-size: 32rpx;
+}
+
+.price {
+  margin-top: 8rpx;
+  position: relative;
+}
+
+.new-price {
+  color: #ff5777;
+  margin-left: 10rpx;
+  margin-right: 15rpx;
+}
+
+.old-price {
+  font-size: 30rpx;
+  text-decoration: line-through
+}
+
+.discount {
+  position: absolute;
+  font-size: 25rpx;
+  background-color: #ff5777;
+  color: white;
+  margin-left: 15rpx;
+  top: 2px;
+  border-radius: 20px;
+  
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  font-size: 26rpx;
+  margin-top: 30rpx;
+  padding-bottom: 16rpx;
+  border-bottom: 1px solid rgba(200, 200, 200, .6);
+}
+
+.columns-item {
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  font-size: 24rpx;
+  padding: 30rpx 0;
+}
+
+.services .icon {
+  width: 24rpx;
+  height: 24rpx;
+  position: relative;
+  top: 2rpx;
+  right: 6rpx;
+}
+
+.services-item {
+  /* flex: 1; */
+  text-align: center;
+}

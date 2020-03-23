@@ -1,0 +1,38 @@
+<!--pages/detail/childCpns/q-param-info/q-param-info.wxml-->
+
+<view class="param-info">
+<!-- 这个尺寸有三层，tables->0->数据，所以遍历三次,注意遍历时的数据要使用传过来的对象，对象内的属性要使用构造函数定义的 -->
+  <view class="size">
+    <block wx:for='{{paramInfo.sizes}}'
+           wx:for-item='itemx'
+           wx:for-index='index'
+           wx:key='index'>
+           <view class="size-table">
+            <block wx:for='{{itemx}}'
+                   wx:for-item='itemy'
+                   wx:for-index='indey'
+                   wx:key='indey'>
+                   <view class='size-row row'>
+                    <block wx:for='{{itemy}}' 
+                           wx:for-item='itemz'
+                           wx:for-index='indez'
+                           wx:key='indez'>
+                          <view class='size-item'>{{itemz}}</view>
+                           </block>
+                   </view>
+                   </block>
+           </view>
+           </block>
+  
+  </view>
+
+  <view class="info">
+    <block wx:for='{{paramInfo.infos}}'
+           wx:key='index'>
+        <view class="info-row row">
+          <view class="key">{{item.key}}</view>
+          <view class="value">{{item.value}}</view>
+        </view>
+    </block>
+  </view>
+</view>

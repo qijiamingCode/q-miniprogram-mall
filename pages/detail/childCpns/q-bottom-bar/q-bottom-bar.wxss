@@ -1,0 +1,45 @@
+/* pages/detail/childCpns/q-butom-bar/q-buttom-bar.wxss */
+.bottom-bar {
+  display: flex;
+  font-size:30rpx;
+  height: 120rpx;
+  /* z-index: 999; */
+}
+
+.bar-left {
+  display: flex;
+  width: 50%;
+}
+
+.left-item {
+  flex: 1;
+  text-align: center;
+}
+
+.left-item image {
+  width: 44rpx;
+  height: 44rpx;
+  /* vertical-align: center; */
+  margin-top: 20rpx;
+}
+
+.bar-right {
+  width:50%;
+  display: flex;
+}
+
+.right-item {
+  flex: 1;
+  text-align: center;
+  line-height: 120rpx;
+ 
+}
+
+.cart {
+  background: #ffe817;
+}
+
+.buy {
+  background: #ff5777;
+  color: #fff;
+}
